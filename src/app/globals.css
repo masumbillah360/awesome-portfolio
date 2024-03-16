@@ -6,3 +6,28 @@
 html {
     scroll-behavior: smooth;
 }
+
+.backToTop {
+    bottom: 25px;
+    right: 25px;
+    position: fixed;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+    background: rebeccapurple;
+    transition: scale 0.1s ease-out;
+    z-index: 50;
+}
+
+.backToTop:hover {
+    scale: 1.1;
+}

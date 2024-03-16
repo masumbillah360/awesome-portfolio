@@ -5,6 +5,7 @@ import "./globals.css";
 // import components
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ScrollButton from "@/components/ScrollButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <ScrollButton />
       </body>
     </html>
   );
