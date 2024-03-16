@@ -28,13 +28,13 @@
 //                                 <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                     </svg>
 //                                 </span>
 //                                 <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                     </svg>
 //                                 </span>
 //                             </button>
@@ -69,13 +69,13 @@
 //                                 <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                     </svg>
 //                                 </span>
 //                                 <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                     </svg>
 //                                 </span>
 //                             </button>
@@ -110,13 +110,13 @@
 //                                 <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                     </svg>
 //                                 </span>
 //                                 <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                     </svg>
 //                                 </span>
 //                             </button>
@@ -152,13 +152,13 @@
 //                                 <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                     </svg>
 //                                 </span>
 //                                 <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                     <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                         stroke="currentColor">
-//                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                     </svg>
 //                                 </span>
 //                             </button>
@@ -193,13 +193,13 @@
 //                                     <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                         <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                             stroke="currentColor">
-//                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                         </svg>
 //                                     </span>
 //                                     <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                         <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                             stroke="currentColor">
-//                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                         </svg>
 //                                     </span>
 //                                 </button>
@@ -235,13 +235,13 @@
 //                                         <span x-show="expanded" aria-hidden="true" className="ml-4">
 //                                             <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                                 stroke="currentColor">
-//                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+//                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
 //                                             </svg>
 //                                         </span>
 //                                         <span x-show="!expanded" aria-hidden="true" className="ml-4">
 //                                             <svg className="w-6 h-6 text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 //                                                 stroke="currentColor">
-//                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+//                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
 //                                             </svg>
 //                                         </span>
 //                                     </button>
