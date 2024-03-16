@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./src/section/Hero";
 import About from "./src/section/About";
 import Activity from "./src/section/Activity";
@@ -8,13 +7,13 @@ import Projects from "./src/section/Projects";
 
 export default function Home() {
   return (
-    <main className="p-24">
-       <Hero />
-       <About />
-       <Projects />
-       <Activity />
-       <Service />
-       <Contact />
+    <main className="lg:p-24">
+      <Hero />
+      <About />
+      <Projects />
+      <Activity />
+      <Service />
+      <Contact />
     </main>
   );
 }

@@ -90,20 +90,17 @@ const Navbar = () => {
 
 
   return (
-    <header className="py-4 lg:py-4 bg-white shadow-md !z-[9999] sticky top-0">
-      <div className="sectionPadding | mx-auto">
+    <header className="px-4 lg:px-24 py-4 lg:py-4 bg-white shadow-md !z-[9999] sticky top-0">
+      <div className="mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0 z-20">
-            <Link href="/" className="text-primary_ flex gap-3 items-center">
-              {/* <Logo /> */}
-              
+            <Link href="/" className="text-primary flex gap-3 items-center">
+              Logo
             </Link>
           </div>
-
-
           <div className="flex lg:hidden">
             <button
-              className="text-black_"
+              className="text-black"
               type="button"
               onClick={() => setExpanded((prevExpanded) => !prevExpanded)}
               aria-expanded={expanded}
@@ -124,8 +121,6 @@ const Navbar = () => {
               </span>
             </button>
           </div>
-
-
           <div className="hidden lg:flex lg:gap-8 xl:gap-10 lg:items-center lg:justify-center">
             {navLinks.map((link) => (
               <a
@@ -141,40 +136,6 @@ const Navbar = () => {
                 </div>
               </a>
             ))}
-          </div>
-
-
-          <div className="hidden lg:flex lg:items-center lg:justify-end lg:space-x-10">
-            <Link
-              href="#"
-              title=""
-              className="text-base font-medium text-gray-900 transition-all duration-200 rounded  font-pj hover:text-accent "
-            >
-              {" "}
-              Login{" "}
-            </Link>
-
-
-            <Link
-              href="#"
-              title=""
-              className="
-              inline-flex
-              items-center
-              justify-center
-              px-5
-              py-3
-              text-base
-              font-semibold
-              text-white
-              bg-gradient
-              rounded-xl
-              w-full
-                    "
-              role="button"
-            >
-              Sign up
-            </Link>
           </div>
         </div>
 
@@ -206,8 +167,7 @@ const Navbar = () => {
               className="font-medium text-accent text-[20px]  px-5
               py-3  w-full   hover:text-opacity-50 "
             >
-              {" "}
-              Login{" "}
+              Profile
             </Link>
 
 
