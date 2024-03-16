@@ -18,6 +18,7 @@ const sectionIds: { [key: string]: string } = {
   projects: "projects",
   activity: "activity",
   services: "services",
+  faq: "faq",
   contact: "contact",
 };
 
@@ -28,6 +29,7 @@ const navLinks = [
   { section: "projects", text: "Projects" },
   { section: "activity", text: "Activity" },
   { section: "services", text: "Services" },
+  { section: "faq", text: "FAQ" },
   { section: "contact", text: "Contact" },
 ];
 
@@ -200,6 +202,5 @@ const Navbar = () => {
 
 
 export default Navbar;
-
 
 

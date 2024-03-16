@@ -1,6 +1,5 @@
 import React from "react";
-// import resume from "../../assets/Masum_Billah.pdf";
-// import aboutImage from "../../assets/mernlogo-removebg-preview.png";
+
 
 const About = () => {
   return (
