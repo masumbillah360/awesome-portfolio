@@ -4,9 +4,9 @@ const Projects = () => {
     return (
         <div className="py-12 bg-white sm:py-16 lg:py-20" id='projects'>
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div>
-                    <h2 className="text-lg font-bold text-gray-900">Your media files</h2>
-                    <p className="mt-1 text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+                <div className='text-center'>
+                    <h2 className="text-4xl font-bold text-gray-900">Projects</h2>
+                    <p className="mt-1 text-sm font-medium text-gray-500">Explore some projects that I have done!</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-6 mt-8 lg:mt-10 sm:grid-cols-3 lg:grid-cols-4">
