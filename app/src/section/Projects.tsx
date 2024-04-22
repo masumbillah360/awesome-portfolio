@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import Image from 'next/image';
+import React from 'react';
 
 const Projects = () => {
     return (
@@ -12,7 +13,7 @@ const Projects = () => {
                 <div className="grid grid-cols-2 gap-6 mt-8 lg:mt-10 sm:grid-cols-3 lg:grid-cols-4">
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-01.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-01.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_904.png</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">1.04 MB</p>
@@ -20,7 +21,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-02.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-02.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_482.jpg</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">2 MB</p>
@@ -28,7 +29,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-03.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-03.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_1849.jpg</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">4.1 MB</p>
@@ -36,7 +37,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-04.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-04.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_3009.png</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">1.84 MB</p>
@@ -44,7 +45,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-05.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-05.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_1565.png</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">587 KB</p>
@@ -52,7 +53,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-06.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-06.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Interior_345.png</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">2.91 MB</p>
@@ -60,7 +61,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-07.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-07.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Working_Woman.jpg</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">1.24 MB</p>
@@ -68,7 +69,7 @@ const Projects = () => {
 
                     <div>
                         <div className="overflow-hidden rounded-lg cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
-                            <img className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-08.png" alt="" />
+                            <Image className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105" src="https://landingfoliocom.imgix.net/store/collection/clarity-dashboard/images/table-grid/2/media-08.png" alt="" />
                         </div>
                         <p className="mt-4 text-sm font-bold text-gray-900">Coffee_shop_img.png</p>
                         <p className="mt-1 text-sm font-medium text-gray-500">3 MB</p>
