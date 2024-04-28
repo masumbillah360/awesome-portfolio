@@ -18,6 +18,7 @@ const sectionIds: { [key: string]: string } = {
   projects: "projects",
   activity: "activity",
   services: "services",
+  faq: "faq",
   contact: "contact",
 };
 
@@ -28,6 +29,7 @@ const navLinks = [
   { section: "projects", text: "Projects" },
   { section: "activity", text: "Activity" },
   { section: "services", text: "Services" },
+  { section: "faq", text: "FAQ" },
   { section: "contact", text: "Contact" },
 ];
 
@@ -45,39 +47,39 @@ const Navbar = () => {
   const [activeSection, setActiveSection] = useState(getInitialActiveSection());
 
 
-//   const handleScroll = () => {
-//     const targetHeight = window.innerHeight / 2;
-//     for (const [section, id] of Object.entries(sectionIds)) {
-//       const sectionElement = document?.getElementById(id);
-//       const rect = sectionElement?.getBoundingClientRect();
-//       if (
-//         rect?.top &&
-//         rect?.top <= targetHeight &&
-//         rect?.bottom &&
-//         rect?.bottom >= targetHeight
-//       ) {
-//         setActiveSection(section);
-//         break;
-//       }
-//     }
-//   };
+  const handleScroll = () => {
+    const targetHeight = window.innerHeight / 2;
+    for (const [section, id] of Object.entries(sectionIds)) {
+      const sectionElement = document?.getElementById(id);
+      const rect = sectionElement?.getBoundingClientRect();
+      if (
+        rect?.top &&
+        rect?.top <= targetHeight &&
+        rect?.bottom &&
+        rect?.bottom >= targetHeight
+      ) {
+        setActiveSection(section);
+        break;
+      }
+    }
+  };
 
 
-//   useEffect(() => {
-//     const handleLocationChange = () => {
-//       setActiveSection(location === "/blog" ? "blogs" : "home");
-//     };
+  useEffect(() => {
+    const handleLocationChange = () => {
+      setActiveSection(location === "/blog" ? "blogs" : "home");
+    };
 
 
-//     window.addEventListener("scroll", handleScroll);
-//     window.addEventListener("popstate", handleLocationChange);
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("popstate", handleLocationChange);
 
 
-//     return () => {
-//       window.removeEventListener("scroll", handleScroll);
-//       window.removeEventListener("popstate", handleLocationChange);
-//     };
-//   }, [location]);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("popstate", handleLocationChange);
+    };
+  }, [location]);
 
 
   useEffect(() => {
@@ -86,7 +88,7 @@ const Navbar = () => {
 
 
   const getNavLinkClass = (sectionName: string) =>
-    activeSection === sectionName ? "text-accent" : "text-black_";
+    activeSection === sectionName ? "text-red-500" : "text-black";
 
 
   return (
@@ -200,6 +202,5 @@ const Navbar = () => {
 
 
 export default Navbar;
-
 
 
