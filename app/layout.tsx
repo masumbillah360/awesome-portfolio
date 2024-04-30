@@ -1,10 +1,10 @@
+import ScrollButton from "@/components/ScrollButton";
+import { ThemeProvider } from "@/components/providers/theme";
+import Footer from "@/components/shared/footer/Footer";
+import Navbar from "@/components/shared/navbar/Navbar";
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/providers/theme";
-import Navbar from "@/components/shared/navbar/Navbar";
-import Footer from "@/components/shared/footer/Footer";
-import ScrollButton from "@/components/ScrollButton";
 
 const font = Open_Sans({ subsets: ["latin"] });
 
