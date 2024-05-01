@@ -5,9 +5,13 @@ import TitleCard from "../cards/TitleCard";
 const Projects = () => {
   return (
     <div className="py-12 sm:py-16 lg:py-20" id="projects">
-      <h2 className="text-3xl text-center font-bold text-primary dark:text-primary-foreground mb-5">
-        Projects
-      </h2>
+      <div className="mb-5">
+        <TitleCard
+          title="Projects"
+          subTitle="I'm familiar with those disabled Framework and Library"
+          textCenter
+        />
+      </div>
       <TitleCard
         title="Explore Some Projects"
         subTitle="I have created those projects using my own skill"

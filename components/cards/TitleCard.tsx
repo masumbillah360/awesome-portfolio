@@ -5,10 +5,21 @@ interface Props {
   subTitle?: string;
   seeAll?: boolean;
   seeAllPath?: string;
+  textCenter?: boolean;
 }
-const TitleCard = ({ title, subTitle, seeAll, seeAllPath }: Props) => {
+const TitleCard = ({
+  title,
+  subTitle,
+  seeAll,
+  seeAllPath,
+  textCenter,
+}: Props) => {
   return (
-    <div className="px-3 py-5 bg-primary dark:bg-gray-700 rounded-sm rounded-b-none relative">
+    <div
+      className={`px-3 py-5 bg-primary dark:bg-gray-700 rounded-sm rounded-b-none relative ${
+        textCenter ? "text-center" : "text-start"
+      }`}
+    >
       <div className="text-white">
         <h2 className="font-semibold text-2xl">{title}</h2>
         {subTitle && <p className="font-light">{subTitle}</p>}

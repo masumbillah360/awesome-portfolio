@@ -8,13 +8,11 @@ import TitleCard from "../cards/TitleCard";
 
 const FAQPage = () => {
   return (
-    <div className="py-12 sm:py-16 lg:py-20" id="projects">
-      <h2 className="text-3xl text-center font-bold text-primary dark:text-primary-foreground mb-5">
-        Projects
-      </h2>
+    <section id="faq" className="py-12 sm:py-16 lg:py-20">
       <TitleCard
         title="Frequently Ask Questions About Me"
         subTitle="Some Question & Answer given for you to understand me"
+        textCenter
       />
       <div className="">
         <Accordion type="single" collapsible className="w-full">
@@ -40,7 +38,7 @@ const FAQPage = () => {
           </AccordionItem>
         </Accordion>
       </div>
-    </div>
+    </section>
   );
 };
 
