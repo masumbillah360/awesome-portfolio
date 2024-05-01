@@ -30,7 +30,7 @@ const SkillSection = () => {
                     label={language.label}
                     icon={language.icon}
                     familiar={language?.familiar}
-                    url=" "
+                    url={language.url ?? " "}
                     description={language.description}
                   />
                 ))}
@@ -47,7 +47,8 @@ const SkillSection = () => {
                     key={db.label}
                     label={db.label}
                     icon={db.icon}
-                    url=" "
+                    url={db.url ?? " "}
+                    description={db.description}
                   />
                 ))}
               </div>
@@ -98,7 +99,8 @@ const SkillSection = () => {
                     label={fl.label}
                     icon={fl.icon}
                     familiar={fl?.familiar}
-                    url=" "
+                    url={fl.url ?? " "}
+                    description={fl.description}
                   />
                 ))}
               </div>

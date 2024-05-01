@@ -38,7 +38,7 @@ const SkillCard = ({ label, icon, familiar, url, description }: Props) => {
           </Link>
         </TooltipTrigger>
         <TooltipContent>
-          <p>{description ?? label}</p>
+          <div className="w-44 font-light">{description ?? label}</div>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

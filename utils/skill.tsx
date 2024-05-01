@@ -118,32 +118,104 @@ export const programmingLanguage = [
 ];
 
 export const frameworkAndLibraryList = [
-  { label: "NEXT JS", icon: <TbBrandNextjs size={23} /> },
-  { label: "React", icon: <SiReact size={23} color="#5ED5F6" /> },
-  { label: "Express", icon: <SiExpress size={23} color="#7E7E7E" /> },
-  { label: "Fastify", icon: <SiFastify size={23} /> },
-  { label: "Hono", icon: <SiBun size={23} color="#F3E8D8" /> },
-  { label: "Web Socket", icon: <SiSocketdotio size={23} color="#00ffff" /> },
-  { label: "tRPC", icon: <SiTrpc size={23} color="#3489C6" /> },
-  { label: "Swagger", icon: <SiSwagger size={23} color="#709d53" /> },
-  { label: "Firebase", icon: <SiFirebase size={23} color="#f1c23b" /> },
-  { label: "Clerk", icon: <SiClerk size={23} color="#18b9f6" /> },
+  {
+    label: "NEXT JS",
+    icon: <TbBrandNextjs size={23} />,
+    description:
+      "Next.js is a full-stack React framework that enables you to create high-quality web applications",
+    url: "https://nextjs.org/",
+  },
+  {
+    label: "React",
+    icon: <SiReact size={23} color="#5ED5F6" />,
+    description: "The library for web and native user interfaces",
+    url: "https://react.dev/",
+  },
+  {
+    label: "Express",
+    icon: <SiExpress size={23} color="#7E7E7E" />,
+    description:
+      "Express is a fast and flexible web framework for Node.js that supports web and mobile applications, APIs, and performance",
+    url: "https://expressjs.com/",
+  },
+  {
+    label: "Fastify",
+    icon: <SiFastify size={23} />,
+    description: "Fast and low overhead web framework, for Node.js",
+    url: "https://fastify.dev/",
+  },
+  {
+    label: "Hono",
+    icon: <SiBun size={23} color="#F3E8D8" />,
+    description: "Hono - Ultrafast web framework for the Edges",
+    url: "https://hono.dev/",
+  },
+  {
+    label: "Web Socket",
+    icon: <SiSocketdotio size={23} color="#00ffff" />,
+    description:
+      "WebSocket is a bidirectional communication protocol that allows data to be sent from the client to the server",
+    url: "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+  },
+  {
+    label: "tRPC",
+    icon: <SiTrpc size={23} color="#3489C6" />,
+    description:
+      "tRPC is a framework that lets you create end-to-end typesafe APIs with TypeScript inference.",
+    url: "https://trpc.io/",
+  },
+  {
+    label: "Swagger",
+    icon: <SiSwagger size={23} color="#709d53" />,
+    description: "API Documentation & Design Tools",
+    url: "https://swagger.io/",
+  },
+  {
+    label: "Firebase",
+    icon: <SiFirebase size={23} color="#f1c23b" />,
+    description:
+      "Firebase is a platform that helps you build and grow apps and games users love, with fully managed backend",
+    url: "https://firebase.google.com/",
+  },
+  {
+    label: "Clerk",
+    icon: <SiClerk size={23} color="#18b9f6" />,
+    description:
+      "Clerk is a suite of components and services to authenticate and manage your users with flexible and secure options",
+    url: "https://clerk.com/",
+  },
   {
     label: "Nest JS",
     icon: <SiNestjs size={23} color="#d71f4a" />,
     familiar: true,
+    description:
+      "NestJS is an open source platform that helps you build efficient, reliable and scalable server-side applications with TypeScript and Node.js",
+    url: "https://nestjs.com/",
   },
   {
     label: "Flutter",
     icon: <SiFlutter size={23} color="#5DC3F0" />,
     familiar: true,
+    description:
+      "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
+    url: "https://flutter.dev/",
   },
   {
     label: "Djanog",
     icon: <SiDjango size={23} color="#2BA978" />,
     familiar: true,
+    description:
+      "Django makes it easier to build better web apps more quickly and with less code.",
+    url: "https://www.djangoproject.com/",
   },
-  { label: "Flask", icon: <SiFlask size={23} />, familiar: true },
+  {
+    label: "Flask",
+    icon: <SiFlask size={23} />,
+    familiar: true,
+    url: "https://flask.palletsprojects.com/en/3.0.x/",
+    description:
+      "Flask is a lightweight and flexible web framework for Python that follows the UNIX philosophy of doing one thing well",
+  },
 ];
 
 export const databaseList = [
