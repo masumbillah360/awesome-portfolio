@@ -288,13 +288,34 @@ export const ormList = [
 ];
 
 export const cssAndStyle = [
-  { label: "CSS", icon: <SiCss3 size={23} color="#402A1A" /> },
-  { label: "Tailwind", icon: <SiTailwindcss size={23} color="#1E8E81" /> },
-  { label: "Bootstrap", icon: <SiBootstrap size={23} color="#1E8E81" /> },
+  {
+    label: "CSS",
+    icon: <SiCss3 size={23} color="#402A1A" />,
+    description:
+      "CSS, or Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in HTML or XML, including aspects such as layout, colors, fonts, and animations, allowing web developers to control the visual appearance of their web pages across different devices and screen sizes",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    label: "Tailwind",
+    icon: <SiTailwindcss size={23} color="#1E8E81" />,
+    description:
+      "Tailwind CSS is the only framework that I have seen scale on large teams. It is easy to customize, adapts to any design, and the build size is tiny",
+    url: "https://tailwindcss.com/",
+  },
+  {
+    label: "Bootstrap",
+    icon: <SiBootstrap size={23} color="#1E8E81" />,
+    description:
+      "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development",
+    url: "https://getbootstrap.com/",
+  },
   {
     label: "SCSS",
     icon: <SiPostcss size={23} color="#BFEF4D" />,
     familiar: true,
+    description:
+      "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects",
+    url: "https://sass-lang.com/",
   },
 ];
 
