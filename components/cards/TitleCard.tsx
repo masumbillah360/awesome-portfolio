@@ -4,12 +4,12 @@ interface Props {
   title: string;
   subTitle?: string;
   seeAll?: boolean;
-  seeAllPath?: String;
+  seeAllPath?: string;
 }
 const TitleCard = ({ title, subTitle, seeAll, seeAllPath }: Props) => {
   return (
-    <div className="px-3 py-5 bg-primary dark:bg-primary-foreground rounded-sm rounded-b-none relative">
-      <div className=" text-white dark:text-black">
+    <div className="px-3 py-5 bg-primary dark:bg-gray-700 rounded-sm rounded-b-none relative">
+      <div className="text-white">
         <h2 className="font-semibold text-2xl">{title}</h2>
         {subTitle && <p className="font-light">{subTitle}</p>}
       </div>

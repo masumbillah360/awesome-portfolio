@@ -12,7 +12,7 @@ const SkillCard = ({ label, icon, familiar, url }: Props) => {
       href={url}
       target="_blank"
       className={`flex items-center ${
-        familiar ? "bg-gray-400" : ""
+        familiar ? "bg-gray-400" : "dark:bg-gray-700"
       } p-4 border border-gray-300 rounded-lg hover:shadow-md transition-shadow duration-300 ease-in-out`}
     >
       <div className="flex-shrink-0">{icon}</div>

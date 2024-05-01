@@ -67,7 +67,7 @@ const SkillSection = () => {
             </div>
             <div className="mt-10 border rounded-md border-primary dark:border-primary-foreground">
               <TitleCard
-                title="CSS & Style"
+                title="CSS & Style Framework"
                 subTitle="I'm familiar with those disabled Framework and Library"
               />
               <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-center gap-2 mt-3 px-2 pb-2">

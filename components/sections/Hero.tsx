@@ -37,17 +37,14 @@ const Hero = () => {
 
           {/* Resume & Contact Button */}
           <div className="mt-5 flex gap-3">
-            <div className="text-center md:text-start">
+            <div className="text-center md:text-start text-white hover:text-black">
               <a
-                className="group relative inline-block overflow-hidden border border-primary px-8 py-3 focus:outline-none focus:ring"
-                href={"/"}
-                download="Resume-Masum_Billah"
-                target="_blank"
-                rel="noreferrer"
+                className="group relative inline-block overflow-hidden border bg-primary  border-primary px-8 py-3 focus:outline-none focus:ring"
+                href="#Contact"
               >
-                <span className="absolute inset-y-0 left-0 w-[2px] bg-primary transition-all group-hover:w-full group-active:bg-primary"></span>
+                <span className="absolute inset-y-0 right-0 w-[0px] bg-white dark:bg-secondary-foreground transition-all group-hover:w-full group-active:bg-white"></span>
 
-                <span className="relative text-sm font-bold transition-colors group-hover:text-primary-foreground">
+                <span className="relative text-sm font-bold   transition-colors ">
                   Download Resume
                 </span>
               </a>
