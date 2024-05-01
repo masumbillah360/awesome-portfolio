@@ -47,10 +47,32 @@ import {
 import { GrMysql } from "react-icons/gr";
 import { TbBinaryTree, TbBrandNextjs } from "react-icons/tb";
 export const programmingLanguage = [
-  { label: "HTML", icon: <SiHtml5 size={23} color="#017ACC" /> },
-  { label: "Typescript", icon: <SiTypescript size={23} color="#017ACC" /> },
-  { label: "Javascript", icon: <SiJavascript size={23} color="#F0DB4F" /> },
-  { label: "Node", icon: <SiNodedotjs size={23} color="#579035" /> },
+  {
+    label: "HTML",
+    icon: <SiHtml5 size={23} color="#017ACC" />,
+    description: "HyperText Markup Language",
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    label: "Typescript",
+    icon: <SiTypescript size={23} color="#017ACC" />,
+    description: "TypeScript is JavaScript with syntax for types",
+    url: "https://www.typescriptlang.org",
+  },
+  {
+    label: "Javascript",
+    icon: <SiJavascript size={23} color="#F0DB4F" />,
+    description:
+      "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS",
+    url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
+  },
+  {
+    label: "Node",
+    icon: <SiNodedotjs size={23} color="#579035" />,
+    description:
+      "Node.js is an open source server environment that uses JavaScript on the server.",
+    url: "https://nodejs.org/en",
+  },
   {
     label: "C Programming",
     icon: (
@@ -61,14 +83,37 @@ export const programmingLanguage = [
         className="bg-blue-600 rounded-full p-1 w-full h-full"
       />
     ),
+    description:
+      "C is a general-purpose, structured, and machine-independent language that is widely used for system software and complex programs",
+    url: "https://www.cprogramming.com/",
   },
-  { label: "C++", icon: <SiCplusplus color="#608BC3" size={23} /> },
-  { label: "DSA", icon: <TbBinaryTree color="#608BC3" size={23} /> },
-  { label: "Dart", icon: <SiDart color="#035597" size={23} />, familiar: true },
+  {
+    label: "C++",
+    icon: <SiCplusplus color="#608BC3" size={23} />,
+    description: "C++: A Versatile Programming Language",
+    url: "https://isocpp.org/",
+  },
+  {
+    label: "DSA",
+    icon: <TbBinaryTree color="#608BC3" size={23} />,
+    description:
+      "DSA is the study of organizing and manipulating data efficiently.",
+  },
+  {
+    label: "Dart",
+    icon: <SiDart color="#035597" size={23} />,
+    familiar: true,
+    description:
+      "Dart is a free and open source language for high-quality apps on any platform",
+    url: "https://dart.dev/",
+  },
   {
     label: "Python",
     icon: <SiPython color="#035597" size={23} />,
     familiar: true,
+    description:
+      "Python is a high-level, interpreted, object-oriented language that is easy to learn and use",
+    url: "https://www.python.org/",
   },
 ];
 

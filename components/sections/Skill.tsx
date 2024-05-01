@@ -31,6 +31,7 @@ const SkillSection = () => {
                     icon={language.icon}
                     familiar={language?.familiar}
                     url=" "
+                    description={language.description}
                   />
                 ))}
               </div>
