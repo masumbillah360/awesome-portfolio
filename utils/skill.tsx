@@ -262,10 +262,29 @@ export const databaseList = [
     url: "https://turso.tech/",
   },
 ];
+
 export const ormList = [
-  { label: "Mongoose", icon: <SiMongoose size={23} color="#402A1A" /> },
-  { label: "Prisma", icon: <SiPrisma size={23} color="#1E8E81" /> },
-  { label: "Drizzle", icon: <BsCloudDrizzle size={23} color="#BFEF4D" /> },
+  {
+    label: "Mongoose",
+    icon: <SiMongoose size={23} color="#402A1A" />,
+    description:
+      "Mongoose is an elegant MongoDB object modeling tool designed to work in an asynchronous environment, making it easier to work with MongoDB in Node.js applications by providing a schema-based solution for modeling application data.",
+    url: "https://mongoosejs.com/",
+  },
+  {
+    label: "Prisma",
+    icon: <SiPrisma size={23} color="#1E8E81" />,
+    description:
+      "Prisma is a modern database toolkit that simplifies database access and management by providing a type-safe and auto-generated query builder for TypeScript and Node.js applications, offering features such as schema migrations, type-safe database access, and a powerful query API",
+    url: "https://www.prisma.io/",
+  },
+  {
+    label: "Drizzle",
+    icon: <BsCloudDrizzle size={23} color="#BFEF4D" />,
+    description:
+      "Drizzle ORM is a lightweight and performant TypeScript ORM that supports all major serverful and serverless runtimes and database drivers",
+    url: "https://orm.drizzle.team/",
+  },
 ];
 
 export const cssAndStyle = [
