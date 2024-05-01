@@ -320,19 +320,76 @@ export const cssAndStyle = [
 ];
 
 export const toolsList = [
-  { label: "VS Code", icon: <SiVisualstudiocode size={23} color="#396B94" /> },
+  {
+    label: "VS Code",
+    icon: <SiVisualstudiocode size={23} color="#396B94" />,
+    description:
+      "Visual Studio Code is a free, lightweight and extensible code editor for building web, desktop and mobile applications",
+    url: "https://code.visualstudio.com/",
+  },
   { label: "GitHub", icon: <SiGithub size={23} /> },
-  { label: "Gitlab", icon: <SiGitlab size={23} color="#f97926" /> },
-  { label: "AWS", icon: <SiAwsfargate size={23} color="#f97926" /> },
-  { label: "Vercel", icon: <SiVercel size={23} /> },
-  { label: "Figma", icon: <SiFigma size={23} color="#fe7262" /> },
-  { label: "Postman", icon: <SiPostman size={23} color="#ee5722" /> },
-  { label: "Api Dog", icon: <SiAidungeon size={23} color="#4396ff" /> },
-  { label: "Netlify", icon: <SiNetlify size={23} color="#65a29f" /> },
-  { label: "Railway", icon: <SiRailway size={23} /> },
+  {
+    label: "Gitlab",
+    icon: <SiGitlab size={23} color="#f97926" />,
+    description:
+      "GitHub is the world’s leading platform for software development, collaboration, and security.",
+    url: "https://github.com/",
+  },
+  {
+    label: "AWS",
+    icon: <SiAwsfargate size={23} color="#f97926" />,
+    description:
+      "AWS is the world’s most comprehensive and broadly adopted cloud",
+    url: "https://aws.amazon.com/",
+  },
+  {
+    label: "Vercel",
+    icon: <SiVercel size={23} />,
+    description:
+      "Vercel is a platform that lets you build, scale, and secure web apps with your favorite tools and frameworks",
+    url: "https://vercel.com/",
+  },
+  {
+    label: "Figma",
+    icon: <SiFigma size={23} color="#fe7262" />,
+    description:
+      "Figma is a tool for designing, prototyping, developing, and testing products in one space",
+    url: "https://www.figma.com/",
+  },
+  {
+    label: "Postman",
+    icon: <SiPostman size={23} color="#ee5722" />,
+    description:
+      "Postman is a comprehensive API platform that simplifies each step of the API lifecycle and streamlines collaboration for better APIs",
+    url: "https://www.postman.com/",
+  },
+  {
+    label: "Api Dog",
+    icon: <SiAidungeon size={23} color="#4396ff" />,
+    description:
+      "Apidog is a complete set of tools that connects the entire API lifecycle, helping R&D teams implement best practices for API Design-first development",
+    url: "https://apidog.com/",
+  },
+  {
+    label: "Netlify",
+    icon: <SiNetlify size={23} color="#65a29f" />,
+    description:
+      "Netlify is a platform that lets you build, deploy, and manage web applications with a git-based workflow.",
+    url: "https://www.netlify.com/",
+  },
+  {
+    label: "Railway",
+    icon: <SiRailway size={23} />,
+    description:
+      "Deploy an app to production in minutes. Join hundreds of thousands of users deploying applications effortlessly on Railway",
+    url: "https://railway.app/",
+  },
   {
     label: "Android Studio",
     icon: <SiAndroidstudio size={23} color="#587aae" />,
     familiar: true,
+    description:
+      "Android Studio is the official integrated development environment (IDE) for Android app development",
+    url: "https://developer.android.com",
   },
 ];
