@@ -62,7 +62,8 @@ const SkillSection = () => {
                     key={orm.label}
                     label={orm.label}
                     icon={orm.icon}
-                    url=" "
+                    url={orm.url ?? " "}
+                    description={orm.description}
                   />
                 ))}
               </div>
@@ -79,7 +80,8 @@ const SkillSection = () => {
                     label={c.label}
                     icon={c.icon}
                     familiar={c?.familiar}
-                    url=" "
+                    url={c.url ?? " "}
+                    description={c.description}
                   />
                 ))}
               </div>
@@ -114,8 +116,9 @@ const SkillSection = () => {
                     key={tool.label}
                     label={tool.label}
                     icon={tool.icon}
-                    url=" "
                     familiar={tool.familiar}
+                    url={tool.url ?? " "}
+                    description={tool.description}
                   />
                 ))}
               </div>

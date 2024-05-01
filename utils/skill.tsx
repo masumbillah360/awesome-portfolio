@@ -219,12 +219,48 @@ export const frameworkAndLibraryList = [
 ];
 
 export const databaseList = [
-  { label: "MongoDB", icon: <SiMongodb size={23} color="#579035" /> },
-  { label: "SQLite", icon: <SiSqlite size={23} color="#08425D" /> },
-  { label: "PostgreSQL", icon: <SiPostgresql size={23} color="#396B94" /> },
-  { label: "MySQL", icon: <GrMysql size={23} color="#F29418" /> },
-  { label: "Firebase", icon: <SiFirebase size={23} color="#f1c23b" /> },
-  { label: "Turso", icon: <SiTurso size={23} color="#55F8D3" /> },
+  {
+    label: "MongoDB",
+    icon: <SiMongodb size={23} color="#579035" />,
+    description:
+      "MongoDB is a source-available, cross-platform, document-oriented database program",
+    url: "https://www.mongodb.com/",
+  },
+  {
+    label: "SQLite",
+    icon: <SiSqlite size={23} color="#08425D" />,
+    description:
+      "SQLite is the most used database engine in the world, built into all mobile phones and most computers",
+    url: "https://www.sqlite.org/index.html",
+  },
+  {
+    label: "PostgreSQL",
+    icon: <SiPostgresql size={23} color="#396B94" />,
+    description:
+      "PostgreSQL is a powerful, open source object-relational database system",
+    url: "https://www.postgresql.org/",
+  },
+  {
+    label: "MySQL",
+    icon: <GrMysql size={23} color="#F29418" />,
+    description:
+      "MySQL is an open-source relational database management system (RDBMS) that uses SQL (Structured Query Language) for managing and querying databases.",
+    url: "https://www.mysql.com/",
+  },
+  {
+    label: "Firestore",
+    icon: <SiFirebase size={23} color="#f1c23b" />,
+    description:
+      "Cloud Firestore lets you store and sync data for mobile, web, and server development with realtime listeners and offline support",
+    url: "https://firebase.google.com/docs/firestore/",
+  },
+  {
+    label: "Turso",
+    icon: <SiTurso size={23} color="#55F8D3" />,
+    description:
+      "Turso is a platform that lets you build and integrate SQLite into your production applications with scalable per-tenant database architecture",
+    url: "https://turso.tech/",
+  },
 ];
 export const ormList = [
   { label: "Mongoose", icon: <SiMongoose size={23} color="#402A1A" /> },
